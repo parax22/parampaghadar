@@ -51,19 +51,8 @@ export default function WorkExperience() {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <section className="py-16 md:py-24 bg-muted/30 relative overflow-hidden">
+    <section className="py-16 md:py-24 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 z-0">
-        <div
-          className="absolute inset-0 opacity-[0.07] dark:opacity-[0.03]"
-          style={{
-            backgroundImage: `radial-gradient(circle, var(--primary-rgb) 1px, transparent 1px)`,
-            backgroundSize: "30px 30px",
-          }}
-        />
-        <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-primary/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-1/4 h-1/4 bg-primary/5 rounded-full blur-3xl" />
-      </div>
 
       <div className="container px-4 md:px-6 relative z-10">
         <motion.div
@@ -85,7 +74,7 @@ export default function WorkExperience() {
           </div>
 
           {/* Experience Cards - Completely Redesigned */}
-          <div className="max-w-4xl mx-auto space-y-12">
+          <div className="max-w-4xl mx-auto space-y-12 bg-pri">
             {experiences.map((exp, index) => (
               <motion.div
                 key={exp.id}
@@ -98,14 +87,14 @@ export default function WorkExperience() {
               >
                 {/* Connecting Line */}
                 {index < experiences.length - 1 && (
-                  <div className="absolute left-[39px] top-[72px] bottom-[-48px] w-0.5 bg-gradient-to-b from-primary/80 to-primary/10 z-0" />
+                  <div className="absolute left-[18px] top-0 lg:left-[39px] lg:top-0 bottom-[-48px] w-0.5 bg-gradient-to-b from-primary/80 to-primary/10 z-0" />
                 )}
 
                 <div className="flex gap-6">
                   {/* Timeline Icon */}
                   <div className="relative">
-                    <div className="w-20 h-20 rounded-2xl bg-background border-2 border-primary/20 shadow-md flex items-center justify-center z-10 relative">
-                      <Briefcase className="h-8 w-8 text-primary" />
+                    <div className=" w-10 h-10 lg:w-20 lg:h-20 rounded-2xl bg-background border-2 border-primary/20 shadow-md flex items-center justify-center z-10 relative">
+                      <Briefcase className="h-4 w-4 lg:h-8 lg:w-8 text-primary" />
                     </div>
                   </div>
 
@@ -123,7 +112,7 @@ export default function WorkExperience() {
                             </div>
                           </div>
 
-                          <div className="flex items-center gap-2 text-sm text-muted-foreground bg-background/80 backdrop-blur-sm px-4 py-2 rounded-full border">
+                          <div className="flex items-center gap-2 text-xs lg:text-sm text-muted-foreground bg-background/80 backdrop-blur-sm px-4 py-2 rounded-full border">
                             <Calendar className="h-3.5 w-3.5" />
                             <span>{exp.period}</span>
                             <span className="mx-1">•</span>
