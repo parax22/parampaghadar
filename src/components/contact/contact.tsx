@@ -51,7 +51,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <section className="px-5 lg:px-0">
+    <section className="py-8 md:py-0 px-5 lg:px-0">
       <div className="container max-w-6xl mx-auto">
         <Button asChild variant="ghost" className="mb-6 scale-transition -ml-3">
           <Link href="/" className="flex items-center gap-2">
