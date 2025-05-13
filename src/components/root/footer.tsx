@@ -34,7 +34,6 @@ export default function Footer() {
     { label: "Home", href: "/" },
     { label: "Projects", href: "/projects" },
     { label: "Contact", href: "/contact" },
-    { label: "Privacy", href: "/privacy" },
   ];
 
   return (
