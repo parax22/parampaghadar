@@ -51,7 +51,7 @@ export default function WorkExperience() {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <section className="py-16 md:py-24 relative overflow-hidden">
+    <section className="py-16 md:py-20 relative overflow-hidden">
       {/* Background Elements */}
 
       <div className="container px-4 md:px-6 relative z-10">
