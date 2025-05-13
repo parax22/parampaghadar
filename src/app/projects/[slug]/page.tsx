@@ -1,0 +1,31 @@
+import { notFound } from "next/navigation";
+import { projectsData } from "@/utilities/data";
+import ProjectDetail from "@/components/projects/project-details";
+import { Metadata } from "next";
+
+interface PageProps {
+  params: { slug: string };
+}
+
+export async function generateStaticParams() {
+  return projectsData.map((project) => ({ slug: project.slug }));
+}
+
+export const metadata: Metadata = {
+  title: `${projectsData[0].title} | DevsPro`,
+  description: "Created by devsloka.in ",
+};
+export default function ProjectDetailPage({ params }: PageProps) {
+  const { slug } = params;
+  const project = projectsData.find((p) => p.slug === slug);
+
+  if (!project) {
+    notFound();
+  }
+
+  return (
+    <>
+      <ProjectDetail project={project} />
+    </>
+  );
+}
