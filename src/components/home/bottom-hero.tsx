@@ -43,7 +43,7 @@ export default function BottomHero() {
   return (
     <section
       ref={sectionRef}
-      className="py-24 flex justify-center items-center"
+      className="py-24 flex justify-center items-center px-5 lg:-px-0"
     >
       <div className="container max-w-4xl">
         <div className="flex flex-col md:flex-row justify-between gap-12 items-center">
