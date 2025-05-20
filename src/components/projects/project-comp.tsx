@@ -27,7 +27,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="py-25 px-5 lg:px-0">
+    <section className="py-25">
       <div className="container mx-auto">
         <div className="mb-12">
           <Button
