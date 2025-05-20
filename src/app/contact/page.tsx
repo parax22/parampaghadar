@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 const ContactPage = () => {
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-16 md:py-24 flex flex-col justify-center items-center">
       <Contact />
     </section>
   );
