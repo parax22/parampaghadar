@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 
 const ProjectsPage = () => {
   return (
-    <>
+    <div className="mx-auto w-[90%] flex flex-col justify-center items-center">
       <Projects />
-    </>
+    </div>
   );
 };
 
