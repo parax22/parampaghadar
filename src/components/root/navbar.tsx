@@ -35,8 +35,8 @@ export default function Navbar() {
     >
       <div
         className={cn(
-          "w-sm lg:container  mx-auto transition-all duration-500 ease-in-out",
-          scrolled ? "max-w-2xl lg:max-w-4xl" : ""
+          "w-[90%] lg:w-[90%]  mx-auto transition-all duration-500 ease-in-out",
+          scrolled ? "w-[90%] lg:w-[60%]" : ""
         )}
       >
         <nav
