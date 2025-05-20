@@ -26,8 +26,8 @@ export default async function ProjectDetailPage({
   }
 
   return (
-    <>
+    <div className="w-[90%] flex flex-col justify-center items-center mx-auto">
       <ProjectDetail project={project} />
-    </>
+    </div>
   );
 }
