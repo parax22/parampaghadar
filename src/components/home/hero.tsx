@@ -128,7 +128,7 @@ export default function Hero() {
           {/* Social Links */}
           <motion.div className="flex space-x-4 mt-8" variants={item}>
             <motion.a
-              href="https://github.com"
+              href="https://github.com/PriyanshuGupta28"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors"
@@ -139,7 +139,7 @@ export default function Hero() {
               <span className="sr-only">GitHub</span>
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="www.linkedin.com/in/priyanshukrgupta/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors"
@@ -150,7 +150,7 @@ export default function Hero() {
               <span className="sr-only">LinkedIn</span>
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://x.com/28Priyanshu2001"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors"
