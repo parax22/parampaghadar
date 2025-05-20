@@ -30,7 +30,7 @@ const ProjectDetail = ({ project }: { project: ProjectItem }) => {
 
   return (
     <motion.section
-      className="py-25 px-5 lg:px-0"
+      className="py-25"
       variants={container}
       initial="hidden"
       animate="show"
