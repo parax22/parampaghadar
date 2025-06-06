@@ -60,7 +60,7 @@ export default function Navbar() {
               />
               <AvatarFallback>C</AvatarFallback>
             </Avatar>
-            DevsPro
+            Param Paghadar
           </Link>
 
           {/* Desktop Menu */}
