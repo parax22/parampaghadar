@@ -46,7 +46,7 @@ export default function Footer() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link href="/">DevsPro</Link>
+            <Link href="/">P.Param</Link>
           </motion.div>
 
           {/* Navigation */}
