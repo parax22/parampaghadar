@@ -92,7 +92,7 @@ export default function Footer() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            <span>© {currentYear} DevsPro. Made with</span>
+            <span>© {currentYear} Param Paghadar. Made with</span>
             <motion.div
               animate={{
                 scale: [1, 1.2, 1],
