@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import { Github, Linkedin, MessageCircleMore } from "lucide-react";
+// import { SiLeetcode } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -160,6 +161,17 @@ export default function Hero() {
               <MessageCircleMore className="h-5 w-5" />
               <span className="sr-only">Whatsapp</span>
             </motion.a>
+            {/* <motion.a
+              href="https://leetcode.com/u/parax22/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors"
+              whileHover={{ y: -5 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <SiLeetcode className="h-5 w-5" />
+              <span className="sr-only">Whatsapp</span>
+            </motion.a> */}
           </motion.div>
         </motion.div>
       </div>
