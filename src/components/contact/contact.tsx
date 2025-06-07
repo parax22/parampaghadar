@@ -84,10 +84,10 @@ const Contact = () => {
                   <h3 className="font-medium">Email</h3>
                   <p className="text-muted-foreground">
                     <a
-                      href="mailto:hello@devspro.com"
+                      href="mailto:paghadarparam2@gmail.com"
                       className="hover-underline"
                     >
-                      hello@devspro.com
+                    paghadarparam2@gmail.com
                     </a>
                   </p>
                 </div>
@@ -100,8 +100,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-medium">Phone</h3>
                   <p className="text-muted-foreground">
-                    <a href="tel:+12345678901" className="hover-underline">
-                      +1 (234) 567-8901
+                    <a href="tel:+917046307611" className="hover-underline">
+                      +91 7046307611
                     </a>
                   </p>
                 </div>
@@ -114,23 +114,12 @@ const Contact = () => {
                 <div>
                   <h3 className="font-medium">Location</h3>
                   <p className="text-muted-foreground">
-                    San Francisco, California
+                    Surat, Gujarat
                   </p>
                 </div>
               </div>
             </div>
 
-            <div
-              className="mt-12 aspect-w-16 aspect-h-9 "
-              style={{ animationDelay: "400ms" }}
-            >
-              <iframe
-                title="Map"
-                className="w-full h-64 md:h-80 rounded-lg border border-border"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.50764017948262!3d37.75781499657633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1620796071182!5m2!1sen!2sus"
-                loading="lazy"
-              ></iframe>
-            </div>
           </div>
 
           <div

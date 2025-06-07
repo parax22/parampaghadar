@@ -6,7 +6,7 @@ import WorkExperience from "@/components/home/work-experience";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "DevsPro | Portfolio",
+  title: "Param Paghadar | Portfolio",
   description: "Created by devsloka.in ",
 };
 
@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <main className="w-full lg:w-[90%] mx-auto flex flex-col justify-center items-center">
         <Hero />
-        <WorkExperience />
+        {/* <WorkExperience /> */}
         <Projects />
         <BottomHero />
         <ContactSection />

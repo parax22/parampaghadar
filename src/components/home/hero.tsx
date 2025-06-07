@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, MessageCircleMore } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -128,7 +128,7 @@ export default function Hero() {
           {/* Social Links */}
           <motion.div className="flex space-x-4 mt-8" variants={item}>
             <motion.a
-              href="https://github.com/PriyanshuGupta28"
+              href="https://github.com/parax22"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors"
@@ -139,7 +139,7 @@ export default function Hero() {
               <span className="sr-only">GitHub</span>
             </motion.a>
             <motion.a
-              href="www.linkedin.com/in/priyanshukrgupta/"
+              href="https://www.linkedin.com/in/param-paghadar/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors"
@@ -150,15 +150,15 @@ export default function Hero() {
               <span className="sr-only">LinkedIn</span>
             </motion.a>
             <motion.a
-              href="https://x.com/28Priyanshu2001"
+              href="https://wa.me/917046307611"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background/80 backdrop-blur-sm border shadow-sm hover:bg-muted/80 transition-colors"
               whileHover={{ y: -5 }}
               whileTap={{ scale: 0.9 }}
             >
-              <Twitter className="h-5 w-5" />
-              <span className="sr-only">Twitter</span>
+              <MessageCircleMore className="h-5 w-5" />
+              <span className="sr-only">Whatsapp</span>
             </motion.a>
           </motion.div>
         </motion.div>
