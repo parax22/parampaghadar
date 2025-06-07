@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Github, Linkedin, Twitter, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -23,11 +23,11 @@ export default function Footer() {
       href: "https://wa.me/917046307611",
       label: "Twitter",
     },
-    {
-      icon: <Mail className="h-5 w-5" />,
-      href: "mailto:paghadarparam2@gmail.com",
-      label: "Email",
-    },
+    // {
+    //   icon: <Mail className="h-5 w-5" />,
+    //   href: "mailto:paghadarparam2@gmail.com",
+    //   label: "Email",
+    // },
   ];
 
   const footerLinks = [
