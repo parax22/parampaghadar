@@ -10,22 +10,22 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <Github className="h-5 w-5" />,
-      href: "https://github.com",
+      href: "https://github.com/parax22",
       label: "GitHub",
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
-      href: "https://linkedin.com",
+      href: "www.linkedin.com/in/param-paghadar",
       label: "LinkedIn",
     },
     {
       icon: <Twitter className="h-5 w-5" />,
-      href: "https://twitter.com",
+      href: "https://wa.me/917046307611",
       label: "Twitter",
     },
     {
       icon: <Mail className="h-5 w-5" />,
-      href: "mailto:hello@example.com",
+      href: "mailto:paghadarparam2@gmail.com",
       label: "Email",
     },
   ];
