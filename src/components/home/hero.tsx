@@ -73,7 +73,7 @@ export default function Hero() {
           >
             Software Developer. <br className="hidden sm:inline" />
             <span className="text-primary relative">
-              Problem Solver.
+            Code Craftsman.
               <span className="absolute -bottom-2 left-0 right-0 h-1 bg-primary/30 rounded-full"></span>
             </span>
           </motion.h1>
