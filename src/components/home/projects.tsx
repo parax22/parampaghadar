@@ -11,15 +11,15 @@ import { Button } from "@/components/ui/button";
 // Project data
 const projects = [
   {
-    id: "ecommerce-platform",
-    title: "E-Commerce Platform",
+    id: "portfolio-platform",
+    title: "Portfolio Website",
     description:
-      "A modern e-commerce platform with cart functionality, user authentication, and payment processing.",
+      "A portfolio website is a personal online space to showcase your skills, projects, and professional achievements.",
     image:
       "https://images.unsplash.com/photo-1746311372686-e164b0bcb333?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/parax22/parampaghadar",
+    live: "https://parampaghadar.vercel.app/",
   },
   {
     id: "task-management",

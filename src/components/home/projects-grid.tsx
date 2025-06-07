@@ -17,14 +17,14 @@ import {
 // Project data (expanded from the featured projects)
 const allProjects = [
   {
-    id: "ecommerce-platform",
-    title: "E-Commerce Platform",
+    id: "portfolio-platform",
+    title: "Portfolio Website",
     description:
-      "A modern e-commerce platform with cart functionality, user authentication, and payment processing.",
+      "A portfolio website is a personal online space to showcase your skills, projects, and professional achievements.",
     image: "/placeholder.svg?height=400&width=600",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/parax22/parampaghadar",
+    live: "https://parampaghadar.vercel.app/",
     featured: true,
   },
   {
