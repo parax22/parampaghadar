@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <main className="w-full lg:w-[90%] mx-auto flex flex-col justify-center items-center">
-        {/* <Hero /> */}
+        <Hero />
         <WorkExperience />
         <Projects />
         <BottomHero />
