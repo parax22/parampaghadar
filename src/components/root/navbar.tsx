@@ -54,7 +54,7 @@ export default function Navbar() {
           >
             <Avatar className="w-8 h-8">
               <AvatarImage
-                src="https://avatars.githubusercontent.com/u/112753528?v=4"
+                src="https://avatars.githubusercontent.com/u/124564382?u=d75d8cff9ad82d6482d7421a298d4a428d8d69bf&v=4"
                 alt="Avatar"
                 className="rounded-full"
               />
