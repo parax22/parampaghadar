@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <main className="w-full lg:w-[90%] mx-auto flex flex-col justify-center items-center">
-        <Hero />
-        {/* <WorkExperience /> */}
+        {/* <Hero /> */}
+        <WorkExperience />
         <Projects />
         <BottomHero />
         <ContactSection />
