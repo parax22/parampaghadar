@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Github, Linkedin, Twitter, MessageCircleMore ,Heart } from "lucide-react";
+import { Github, Linkedin, MessageCircleMore ,Heart } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
