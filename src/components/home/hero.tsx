@@ -71,7 +71,7 @@ export default function Hero() {
             className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold tracking-tight"
             variants={item}
           >
-            Developer. Creator. <br className="hidden sm:inline" />
+            Software Developer. <br className="hidden sm:inline" />
             <span className="text-primary relative">
               Problem Solver.
               <span className="absolute -bottom-2 left-0 right-0 h-1 bg-primary/30 rounded-full"></span>
