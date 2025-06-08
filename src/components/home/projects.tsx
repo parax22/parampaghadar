@@ -15,8 +15,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "A portfolio website is a personal online space to showcase your skills, projects, and professional achievements.",
-    image:
-      "https://images.unsplash.com/photo-1746311372686-e164b0bcb333?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image:"/portfolio.png",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/parax22/parampaghadar",
     live: "https://parampaghadar.vercel.app/",
