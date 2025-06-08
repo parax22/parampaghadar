@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DevsPro | Portfolio",
-  description: "Created by devsloka.in ",
+  title: "Param Paghadar | Portfolio",
+  description: "Created by Param Paghadar ",
 };
 
 export default function RootLayout({
