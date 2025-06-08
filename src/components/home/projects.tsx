@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Github, ExternalLink, Code } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 
 // Project data
 const projects = [

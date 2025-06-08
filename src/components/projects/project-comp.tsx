@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import { ArrowLeft, Github, LinkIcon } from "lucide-react";
 import { projectsData } from "@/utilities/data";
+import Image from "next/image";
 
 const Projects = () => {
   const container = {
@@ -67,10 +68,13 @@ const Projects = () => {
                 href={`/projects/${project.slug}`}
                 className="block h-48 overflow-hidden"
               >
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
+                  width={600} 
+                  height={400} 
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  unoptimized
                 />
               </Link>
 
