@@ -88,9 +88,9 @@ export default function Projects() {
           {/* View All Button */}
           <div className="flex justify-center mt-8">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button asChild>
+              {/* <Button asChild>
                 <Link href="/projects">View All Projects</Link>
-              </Button>
+              </Button> */}
             </motion.div>
           </div>
         </motion.div>

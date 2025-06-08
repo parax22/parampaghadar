@@ -92,7 +92,7 @@ export default function Footer() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            <span>© {currentYear} Param Paghadar. Made with</span>
+            <span>© {currentYear} Param Paghadar</span>
             <motion.div
               animate={{
                 scale: [1, 1.2, 1],
@@ -104,9 +104,9 @@ export default function Footer() {
               }}
               className="inline-flex mx-1"
             >
-              <Heart className="h-4 w-4 text-red-500" />
+              {/* <Heart className="h-4 w-4 text-red-500" /> */}
             </motion.div>
-            <span>and Next.js</span>
+            {/* <span>and Next.js</span> */}
           </motion.div>
         </div>
       </div>
